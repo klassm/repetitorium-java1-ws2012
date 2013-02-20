@@ -37,7 +37,6 @@ public class WasKommtRaus {
         print("false && false", false && false);
         print("true || false", true || false);
         print("false || false", false || false);
-
     }
 
 
@@ -60,3 +59,6 @@ public class WasKommtRaus {
         System.out.println(text + " = " + erg);
     }
 }
+
+
+
