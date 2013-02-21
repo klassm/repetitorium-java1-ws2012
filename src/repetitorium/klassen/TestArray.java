@@ -14,7 +14,7 @@ public class TestArray {
         studentArrayDatabase.addStudent(new Student("Hans", "Meier", "124"));
         studentArrayDatabase.addStudent(new Student("Erika", "Mustermann", "125"));
         studentArrayDatabase.addStudent(new Student("Erika", "Wurst", "126"));
-        studentArrayDatabase.addStudent(new Student("Gerhard", "Meier", "127"));
+        studentArrayDatabase.addStudent(new Student("Friedrich", "Meier", "127"));
 
         System.out.println(studentArrayDatabase.getStudentAt(0).printMe());
         System.out.println(studentArrayDatabase.getStudentAt(1).printMe());

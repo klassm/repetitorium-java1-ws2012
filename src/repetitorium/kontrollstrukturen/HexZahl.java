@@ -3,6 +3,8 @@ package repetitorium.kontrollstrukturen;
 public class HexZahl {
     public static void main(String[] args) throws Exception {
 
+        System.out.print("> ");
+
         int leadingZero = System.in.read();
         if (leadingZero != '0') {
             System.out.println("Hex Literal beginnt mit 0!");
@@ -11,7 +13,7 @@ public class HexZahl {
 
         int leadingX = System.in.read();
         if  (leadingX != 'x') {
-            System.out.println("Hex literal continues with x");
+            System.out.println("Hex Literal geht mit x weiter!");
             return;
         }
 
@@ -24,7 +26,9 @@ public class HexZahl {
                 return;
             }
 
-            if (c >= 'A' && c <= 'F') c -= 'A' + 'a';
+            if (c >= 'A' && c <= 'F') {
+                c = c - 'A' + 'a';
+            }
 
             if (! (c >= '0' && c <= '9' || c >= 'a' && c <= 'f')) {
                 System.out.println("Invalides Hex Zeichen " + (char) c);

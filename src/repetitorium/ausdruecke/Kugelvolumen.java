@@ -4,7 +4,7 @@ public class Kugelvolumen {
     public static void main(String[] args) {
         float pi = 3.14159f;
         // alternativ:
-        // double pi = 3.14159
+        // double pi = 3.14159;
         // => Unterschied?
 
         float r = 3f;
@@ -15,6 +15,6 @@ public class Kugelvolumen {
         // ??
 
         System.out.println(result);
-        System.out.println("as int: " + (int) result);
+        System.out.println("als int: " + (int) result);
     }
 }

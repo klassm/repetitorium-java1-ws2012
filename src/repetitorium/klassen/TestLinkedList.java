@@ -12,7 +12,7 @@ public class TestLinkedList {
         studentLinkedListDatabase.addStudent(new Student("Hans", "Meier", "124"));
         studentLinkedListDatabase.addStudent(new Student("Erika", "Mustermann", "125"));
         studentLinkedListDatabase.addStudent(new Student("Erika", "Wurst", "126"));
-        studentLinkedListDatabase.addStudent(new Student("Gerhard", "Meier", "127"));
+        studentLinkedListDatabase.addStudent(new Student("Friedrich", "Meier", "127"));
 
         System.out.println(studentLinkedListDatabase.getStudentAt(0).printMe());
         System.out.println(studentLinkedListDatabase.getStudentAt(1).printMe());

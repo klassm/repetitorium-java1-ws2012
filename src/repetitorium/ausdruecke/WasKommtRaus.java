@@ -1,7 +1,7 @@
 package repetitorium.ausdruecke;
 
 public class WasKommtRaus {
-    static boolean requireClick = false;
+    static boolean requireClick = true;
 
     public static void main(String[] args) throws Exception {
 
@@ -39,9 +39,6 @@ public class WasKommtRaus {
         print("false || false", false || false);
     }
 
-
-
-
     static void print(String text, Object erg) throws Exception {
         System.out.println();
         System.out.println();
@@ -59,6 +56,3 @@ public class WasKommtRaus {
         System.out.println(text + " = " + erg);
     }
 }
-
-
-

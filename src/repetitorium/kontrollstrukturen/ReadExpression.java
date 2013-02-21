@@ -60,7 +60,7 @@ public class ReadExpression {
             case '^':
                 // Was stimmt hier nicht?
                 System.out.println(firstOperand + " ^ " + secondOperand + " = " + (firstOperandIsTrue ^ secondOperandIsTrue));
-                // kann man break hier weglassen?
+                // ist break hier wirklich noetig?
                 break;
 
             case '|':

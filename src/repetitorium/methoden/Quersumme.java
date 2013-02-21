@@ -2,8 +2,8 @@ package repetitorium.methoden;
 
 public class Quersumme {
     public static void main(String[] args) {
-        System.out.println(quersummeRekursiv(1337));
-        System.out.println(quersummeIterativ(1337));
+        System.out.println(quersummeRekursiv(17));
+        System.out.println(quersummeIterativ(17));
     }
 
     private static int quersummeIterativ(int number) {
@@ -15,9 +15,9 @@ public class Quersumme {
             sum += rest;
 
             number = (number - rest) / 10;
-        } while (rest > 10);
+        } while (number > 10);
 
-        return sum + rest;
+        return sum + number;
     }
 
     private static int quersummeRekursiv(int number) {
