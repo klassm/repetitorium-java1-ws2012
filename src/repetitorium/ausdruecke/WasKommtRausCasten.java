@@ -15,6 +15,7 @@ public class WasKommtRausCasten {
         print("(int) 3.49", (int) 3.49);
         print("(int) 3.51", (int) 3.51);
 
+
     }
 
     static void print(String text, Object erg) throws Exception {

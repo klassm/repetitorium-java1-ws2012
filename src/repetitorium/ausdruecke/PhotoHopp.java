@@ -60,6 +60,22 @@ class TestFilter extends RGBImageFilter {
         int filteredPixel;
         count ++;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         int alpha = (pixel & 0xFF000000) >>> 24;
         int red = (pixel & 0x00FF0000) >>> 16;
         int green = (pixel & 0x0000FF00) >>> 8;
@@ -67,11 +83,11 @@ class TestFilter extends RGBImageFilter {
 
         float brightness = (red + blue + green) / 3f;
 
-        Action action = Action.INVERT;
+        Action action = Action.LIGHT_UP;
 
         switch (action) {
             case RED:
-                filteredPixel = (alpha << 24) | (red << 16);
+                filteredPixel = (alpha << 24) | (red << 16) | (blue);
                 break;
             case GREEN:
                 filteredPixel = (alpha << 24) | (green << 8);

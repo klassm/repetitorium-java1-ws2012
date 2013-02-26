@@ -6,7 +6,10 @@ public class Fibonacci {
         int first = 0;
         int second = 1;
 
-        for  (int i = 0; i < 20; i++) {
+        System.out.println("1.te Fibonacci Zahl: " + first);
+        System.out.println("2.te Fibonacci Zahl: " + second);
+
+        for  (int i = 2; i < 20; i++) {
             int third = first + second;
             System.out.println((i + 1) + ".te Fibonacci Zahl: " + third);
 
