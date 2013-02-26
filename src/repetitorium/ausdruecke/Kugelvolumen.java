@@ -2,7 +2,7 @@ package repetitorium.ausdruecke;
 
 public class Kugelvolumen {
     public static void main(String[] args) {
-        float pi = 3.14159f;
+        final float pi = 3.14159f;
         // alternativ:
         // double pi = 3.14159;
         // => Unterschied?

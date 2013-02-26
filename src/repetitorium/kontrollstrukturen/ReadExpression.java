@@ -68,7 +68,7 @@ public class ReadExpression {
                 break;
 
             default:
-                System.out.println(firstOperand + " & " + secondOperand + " = " + (firstOperandIsTrue & secondOperandIsTrue));
+                System.out.println((char) firstOperand + " & " + secondOperand + " = " + (firstOperandIsTrue & secondOperandIsTrue));
                 break;
         }
     }
