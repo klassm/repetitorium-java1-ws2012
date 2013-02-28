@@ -4,6 +4,10 @@ public class Wetterstation {
     public static void main(String[] args) {
         int[] temperatureValues = { 12, 14, 9, 12, 15, 16, 15, 15, 11, 8, 13, 13, 15, 12 };
 
+        int temp = temperatureValues[6];
+        temperatureValues[6] = temperatureValues[8];
+        temperatureValues[8] = temp;
+
         int sum = 0;
         for (int i = 0; i < temperatureValues.length; i++) {
             int temperature = temperatureValues[i];

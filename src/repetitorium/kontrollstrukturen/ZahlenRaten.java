@@ -17,6 +17,9 @@ public class ZahlenRaten {
 
             int readNumber = 0;
             int currentChar = System.in.read();
+
+            System.out.print("> ");
+
             while(currentChar != '\n' && currentChar != '\r') {
                 int integerValue = currentChar - '0';
                 readNumber = readNumber * 10 + integerValue;
