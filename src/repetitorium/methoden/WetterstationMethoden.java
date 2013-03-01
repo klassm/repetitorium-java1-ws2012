@@ -1,4 +1,4 @@
-package repetitorium.arrays;
+package repetitorium.methoden;
 
 public class WetterstationMethoden {
     public static void main(String[] args) {
